@@ -1,0 +1,95 @@
+/*Grid 1*/
+
+.gridOne  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Grid 2*/
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.textOne {
+    background-color: red;
+}
+
+.textTwo {
+    background-color: blue;
+}
+
+.textThree {
+    background-color: yellow;
+}
+
+/*Grid 3*/
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+.postOne {
+    background-color: lightcoral;
+}
+
+.postTwo {
+    background-color: grey;
+}
+
+.postTwo img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+/*Grid 4*/
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+#partTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Grid 5*/
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+}
+
+#downText {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#downText img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*Grid 6*/
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.gridSix p {
+    font-family: "Sixtyfour", Arial, sans-serif;
+    text-transform: uppercase;
+}
